@@ -13,4 +13,19 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btn1: TSpeedButton
+    Left = 224
+    Top = 112
+    Width = 129
+    Height = 73
+    OnClick = btn1Click
+  end
+  object lnklbl1: TLinkLabel
+    Left = 72
+    Top = 24
+    Width = 33
+    Height = 17
+    Caption = 'lnklbl1'
+    TabOrder = 0
+  end
 end
